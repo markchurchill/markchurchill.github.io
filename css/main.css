@@ -1,0 +1,73 @@
+/* this is a comment */
+/* this is a cup of	☕️ */
+
+body {
+	background-color: #faece5;
+	background-image: url(../images/arizona-sunrise.jpg);
+	background-size: cover; /*  */
+	background-attachment: fixed; /*  */
+	background-position: 50% 50%; /* aligns middle of image with middle of viewport */
+	font-family: Helvetica, sans-serif;
+}
+.main {
+	background-color: rgba(255,255,255,0.6);
+	max-width: 400px;
+	margin: 0 auto;
+	padding: 20px;
+	border-radius: 10px;
+	box-shadow: 0px 0px 10px 10px black ; /* x-pos, y-pos, blur, size, color */
+}
+
+h1, h2, h3 {
+	color: #d00d00;
+	color: rgba(50,50,88,1);
+	/* font-weight: lighter; */
+	letter-spacing: -0.0175em;
+	font-family: 'Baloo Tamma', cursive;
+	text-decoration: none;
+	margin-bottom: 0;
+}
+
+h1 { text-shadow: 0 0 5px lightyellow; }
+
+h2 { text-transform: uppercase; }
+
+h2:hover { text-shadow: 0 0 3px white; cursor: pointer; } /* makes h2s accordion look like links */
+h2:active { color: yellow; }
+
+.funfunfun h3 {
+	color: #d00d00;
+	font-family: 'Comic Sans MS', serif; 
+	letter-spacing: 0px;
+}
+
+.interactive {
+	display: none;
+}
+
+ul,ol {
+	list-style: none;
+	padding-left: 20px;
+
+}
+ul.armenian {
+	list-style-type:  armenian;
+}
+
+img {
+	width: 100px;
+	border-radius: 50%;
+	margin: 0 auto;
+	display: block;
+}
+
+a {
+	text-decoration: none;
+	font-weight: bold;
+	color:darkbluegrey;
+}
+a:hover {
+	color: rgba(120, 35, 49, 0.4);
+	text-decoration: underline;
+}
+
